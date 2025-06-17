@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Frontend Mentor | Job Listings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <picture>
+      <source media="(min-width: 768px)" srcset="./bg-header-desktop.svg">
+      <img src="bg-header-mobile.svg" alt="" class="header__bg" loading="lazy">
+    </picture>
+  </header>
+
+  <main class="main">
+    <section class="filter-container" id="filter-container" aria-label="Active filters" style="display: none;">
+      <div class="filter-list" id="filter-list" role="list" aria-live="polite">
+        <!-- Active filters will be inserted here -->
+      </div>
+      <button class="filter-clear" id="clear-filters" type="button" aria-label="Clear all filters">
+        Clear
+      </button>
+    </section>
+
+    <section class="job-listings" aria-label="Job listings">
+      <div class="job-list" id="job-list" role="list">
+        <!-- Job listings will be inserted here via JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://qms85.github.io/MyPortfolio/">
+      Jonathan Peters
+    </a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
