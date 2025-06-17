@@ -34,8 +34,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Job Listings](https://your-solution-url.com)
-- Live Site URL: [Job Listings](https://your-live-site-url.com)
+- Solution URL: [Job Listings](https://github.com/QMS85/JobListings.git)
+- Live Site URL: [Job Listings](https://qms85.github.io/JobListings/)
 
 ### Built with
 
